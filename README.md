@@ -13,7 +13,7 @@ RPM-Net addresses the critical challenge of identifying unknown attacks while ma
 
 ## 🏗️ Architecture
 
-![RPM-Net Architecture](docs/rpm_structure_fig.pdf)
+![RPM-Net Architecture](docs/rpm_structure_fig.png)
 
 The RPM-Net architecture consists of four main components:
 
