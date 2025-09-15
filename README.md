@@ -107,7 +107,7 @@ If you use this code in your research, please cite our paper:
 ```bibtex
 @inproceedings{rpmnet2026,
   title={RPM-Net: Reciprocal Point MLP Network for Open Set Recognition in Network Security Threat Detection},
-  author={Your Name},
+  author={jiachen zhang},
   booktitle={Proceedings of ICASSP 2026},
   year={2026}
 }
