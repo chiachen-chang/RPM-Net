@@ -61,14 +61,14 @@ where:
 
 To enhance the discriminative power of learned embeddings, we incorporate Fisher discriminant regularization that maximizes the ratio of inter-class scatter to intra-class scatter:
 
-$$L_Fisher = 1 / (1 + S_b/S_w)$$
+$$L_{Fisher} = 1 / (1 + S_b/S_w)$$
 
 where $S_w$ is the within-class scatter and $S_b$ is the between-class scatter.
 ### Training Objective
 
 The overall training loss combines classification, margin, and Fisher discriminant objectives:
 
-$$L_total = α L_CE + λ L_margin + β L_Fisher$$
+$$L_{total} = α L_{CE} + λ L_{margin} + β L_{Fisher}$$
 
 where:
 - $L_CE$ is the cross-entropy loss
