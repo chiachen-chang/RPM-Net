@@ -71,9 +71,9 @@ The overall training loss combines classification, margin, and Fisher discrimina
 $$L_{total} = α L_{CE} + λ L_{margin} + β L_{Fisher}$$
 
 where:
-- $L_CE$ is the cross-entropy loss
-- $L_margin$ enforces adversarial margin constraints
-- $L_Fisher$ promotes intra-class compactness and inter-class separability
+- $L_{CE}$ is the cross-entropy loss
+- $L_{margin}$ enforces adversarial margin constraints
+- $L_{Fisher}$ promotes intra-class compactness and inter-class separability
 
 ## 📁 Project Structure
 
